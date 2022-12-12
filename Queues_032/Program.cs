@@ -150,7 +150,14 @@ namespace Queues_032
                             {
                                 queue.display();
                             }
-                            break; 
+                            break;
+                        case '4':
+                            return;
+                        default;
+                            {
+                                Console.WriteLine("Invalid option !!");
+                            }
+                            break;
                     }
                 }
             }
