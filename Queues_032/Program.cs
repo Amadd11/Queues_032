@@ -146,6 +146,11 @@ namespace Queues_032
                                 queue.remove();
                             }
                             break ;
+                        case '3':
+                            {
+                                queue.display();
+                            }
+                            break;
                     }
                 }
             }
