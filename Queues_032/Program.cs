@@ -153,12 +153,16 @@ namespace Queues_032
                             break;
                         case '4':
                             return;
-                        default;
+                        default:
                             {
                                 Console.WriteLine("Invalid option !!");
                             }
                             break;
                     }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Check for the values entered. ");
                 }
             }
         }
